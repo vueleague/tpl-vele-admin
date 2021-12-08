@@ -1,1 +1,0 @@
-import{aK as o,bb as c,aW as p}from"./vendor.24d725ed.js";const d=o({name:"Redirect",setup(){const{currentRoute:r,replace:t}=c(),{params:a,query:n}=p(r),{path:e}=a,s=Array.isArray(e)?e.join("/"):e;return t({path:"/"+s,query:n}),{}}});export{d as default};
